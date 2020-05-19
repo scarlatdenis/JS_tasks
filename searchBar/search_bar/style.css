@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #input {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  
+  #list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  h2 {
+      text-transform: uppercase;
+      color: rgb(32, 32, 32);
+  }
+
+
+  #list li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; 
+    background-color: #e0dfdf;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+  
+  #list li a:hover:not(.header) {
+    background-color: rgb(245, 245, 245);
+  }
