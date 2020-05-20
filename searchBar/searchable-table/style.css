@@ -2,3 +2,64 @@ th {
   cursor: pointer;
   color: #fff;
 }
+h4 {
+  margin-bottom: 2vh;
+}
+html 
+body form {
+  max-width: 340px;
+  height: 43vh;
+  padding: 30px;
+  margin: 40px auto;
+  text-align: center;
+  position: relative;
+  background-color: rgb(238, 238, 238);
+}
+#search-input{
+  max-width: 239px;  
+}
+.searchinput{
+  max-width: 276px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.fas{
+  background-color: transparent;
+  border: none;
+  font-size: 21px;
+  height: 31px;
+  margin-top: 5px;  
+}
+
+.button {
+  position: absolute;
+  right: 30px;
+  margin-top: 8vh;
+}
+.buttondown{
+  width: 38px;
+  position: relative;
+  border: 1px solid #ced4da;
+}
+span{
+  margin-left: -1px;
+}
+.button button{
+  border: 0;
+  background-color: transparent;
+}
+#cancel {
+  color: rgb(192, 11, 11);
+}
+
+/* select */
+.dropdown {
+  margin: 20px;
+}
+
+.dropdown-menu {
+  max-height: 20rem;
+  overflow-y: auto;
+}
