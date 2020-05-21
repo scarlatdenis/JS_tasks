@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/css/select2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.3/js/select2.min.js"></script>
+
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <form id="chooseadriver">
+        <h4>Asign Primary Driver</h4>
+        <div id="dataPickerDiv">
+            <input class="datepicker" id="datepicker1" placeholder="Driver Finish Date" />
+            <input class="datepicker" id="datepicker2" placeholder="New Driver Start Date" />
+            <div class="box">
+                <select name="" class="myselect" id="driverList">
+                </select>
+            </div>
+            <div class="button">
+                <button id="cancel" type="button">Cancel</button>
+                <button id="send" type="submit">Save</button>
+            </div>
+        </div>
+    </form>
+
+
+    <script src="https://kit.fontawesome.com/f0393c584b.js" crossorigin="anonymous"></script>
+
+    <script>
+        $(".myselect").select2();
+    </script>
+    <script>
+        $('#datepicker1').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+        $('#datepicker2').datepicker({
+            uiLibrary: 'bootstrap4'
+        });
+
+
+    </script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

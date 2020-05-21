@@ -1,0 +1,34 @@
+#chooseadriver {
+    max-width: 340px;
+    height: 40vh;
+    padding: 30px;
+    margin: 40px auto;
+    text-align: center;
+    position: relative;
+    background-color: rgb(238, 238, 238);
+}
+
+#driverList{
+    width: 100%;
+    /* text-align: left; */
+    height: 36px;
+}
+
+.button button{
+    border: 0;
+    background-color: transparent;
+  }
+  #cancel {
+    color: rgb(192, 11, 11);
+  }
+
+  .button {
+    position: absolute;
+    right: 30px;
+    margin-top: 8vh;
+  }
+  .buttondown{
+    width: 38px;
+    position: relative;
+    border: 1px solid #ced4da;
+  }
